@@ -5,7 +5,7 @@ export const INITIAL_RECIPES: Recipe[] = [
   {
     id: 1,
     title: "Classic Margherita Pizza",
-    image: "https://picsum.photos/seed/pizza/400/300",
+    image: "https://images.unsplash.com/photo-1604382354936-07c5d9983bd3?q=80&w=400&h=300&auto=format&fit=crop",
     time: 45,
     difficulty: "medium",
     category: "Italian"
@@ -13,7 +13,7 @@ export const INITIAL_RECIPES: Recipe[] = [
   {
     id: 2,
     title: "Quick Garlic Pasta",
-    image: "https://picsum.photos/seed/pasta/400/300",
+    image: "https://images.unsplash.com/photo-1473093226795-af9932fe5856?q=80&w=400&h=300&auto=format&fit=crop",
     time: 15,
     difficulty: "easy",
     category: "Italian"
@@ -21,7 +21,7 @@ export const INITIAL_RECIPES: Recipe[] = [
   {
     id: 3,
     title: "Spicy Chicken Curry",
-    image: "https://picsum.photos/seed/curry/400/300",
+    image: "https://images.unsplash.com/photo-1588166524941-3bf61a9c41db?q=80&w=400&h=300&auto=format&fit=crop",
     time: 60,
     difficulty: "hard",
     category: "Indian"
@@ -29,7 +29,7 @@ export const INITIAL_RECIPES: Recipe[] = [
   {
     id: 4,
     title: "Fresh Caesar Salad",
-    image: "https://picsum.photos/seed/salad/400/300",
+    image: "https://images.unsplash.com/photo-1550304943-4f24f54ddde9?q=80&w=400&h=300&auto=format&fit=crop",
     time: 20,
     difficulty: "easy",
     category: "Healthy"
@@ -37,33 +37,12 @@ export const INITIAL_RECIPES: Recipe[] = [
   {
     id: 5,
     title: "Beef Burger Deluxe",
-    image: "https://picsum.photos/seed/burger/400/300",
+    image: "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?q=80&w=400&h=300&auto=format&fit=crop",
     time: 30,
     difficulty: "medium",
     category: "American"
   },
   {
     id: 6,
-    title: "Sushi Rolls",
-    image: "https://picsum.photos/seed/sushi/400/300",
-    time: 90,
-    difficulty: "hard",
-    category: "Japanese"
-  },
-  {
-    id: 7,
-    title: "Avocado Toast",
-    image: "https://picsum.photos/seed/avocado/400/300",
-    time: 10,
-    difficulty: "easy",
-    category: "Breakfast"
-  },
-  {
-    id: 8,
-    title: "Berry Smoothie Bowl",
-    image: "https://picsum.photos/seed/smoothie/400/300",
-    time: 15,
-    difficulty: "easy",
-    category: "Breakfast"
-  }
-];
+    title: "Sushi Platter",
+    image: "https://images.unsplash.com/photo-1579871494447-9811cf80d66c?q=80&w=400&h=300&auto=format&fit=

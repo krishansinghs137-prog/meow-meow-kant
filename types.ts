@@ -1,5 +1,6 @@
 
 export type Difficulty = 'easy' | 'medium' | 'hard';
+export type Category = 'All' | 'Italian' | 'Indian' | 'Healthy' | 'American' | 'Japanese' | 'Breakfast' | 'Mexican';
 
 export interface Recipe {
   id: number;
@@ -7,7 +8,7 @@ export interface Recipe {
   image: string;
   time: number; // minutes
   difficulty: Difficulty;
-  category: string;
+  category: Category;
 }
 
 export type FilterType = 'all' | 'easy' | 'medium' | 'hard' | 'quick';
